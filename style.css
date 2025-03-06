@@ -1,0 +1,84 @@
+﻿.main_Container{
+    width: 50vw;
+    height: 45vw;
+    background-color: white;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 0;
+}
+.left_Container {
+    width: 25vw;
+    height: auto;
+    margin: 0;
+    background: #303846; /*805B87*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.left_Container img {
+    width: 100%;
+    max-width: 175px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 3px solid beige;
+    box-shadow: 10px 10px 10px #000;
+}
+
+.specifications {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: White;
+    width: auto;
+    height: auto;
+    background: transparent;
+    border: White 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #000;
+    word-wrap: break-word;
+}
+
+.specifications_2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: White;
+    width: auto;
+    height: auto;
+    background: transparent;
+    border: White 2px solid;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #000;
+    word-wrap: break-word;
+}
+.name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: White;
+    width: auto;
+    height: auto;
+    background: transparent;
+    border: White 5px solid;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #000;
+    word-wrap: break-word;
+}
+body {
+    margin: 0;
+    background-image: url("images/Resume_Background.png");
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Media query for screens with width <= 768px */
+@media (max-width: 768px) {
+    .left_Container {
+        width: 100%;
+    }
+    .name {
+        padding: 5px;
+    }
+    .specifications, .specifications_2 {
+        padding: 5px;
+    }
+}
